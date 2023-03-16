@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_proto_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cpu_proto_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="172.501 ns"></ZoomEndTime>
+      <Cursor1Time time="17.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="139"></NameColumnWidth>
+      <ValueColumnWidth column_width="61"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject type="logic" fp_name="/cpu_proto_tb/key">
+      <obj_property name="ElementShortName">key</obj_property>
+      <obj_property name="ObjectShortName">key</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_proto_tb/sw">
+      <obj_property name="ElementShortName">sw[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_proto_tb/led">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_proto_tb/cpu_proto/proc/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_proto_tb/cpu_proto/proc/Tstep">
+      <obj_property name="ElementShortName">Tstep[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Tstep[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_proto_tb/cpu_proto/proc/run">
+      <obj_property name="ElementShortName">run</obj_property>
+      <obj_property name="ObjectShortName">run</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_proto_tb/cpu_proto/proc/resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_proto_tb/cpu_proto/proc/IR">
+      <obj_property name="ElementShortName">IR[5:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_proto_tb/cpu_proto/proc/DIN">
+      <obj_property name="ElementShortName">DIN[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DIN[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_proto_tb/cpu_proto/proc/done">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_proto_tb/cpu_proto/proc/clr">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_proto_tb/cpu_proto/proc/Ain">
+      <obj_property name="ElementShortName">Ain</obj_property>
+      <obj_property name="ObjectShortName">Ain</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_proto_tb/cpu_proto/proc/Gin">
+      <obj_property name="ElementShortName">Gin</obj_property>
+      <obj_property name="ObjectShortName">Gin</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_proto_tb/cpu_proto/proc/AddSub">
+      <obj_property name="ElementShortName">AddSub</obj_property>
+      <obj_property name="ObjectShortName">AddSub</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_proto_tb/cpu_proto/proc/IRin">
+      <obj_property name="ElementShortName">IRin</obj_property>
+      <obj_property name="ObjectShortName">IRin</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_proto_tb/cpu_proto/proc/Rin">
+      <obj_property name="ElementShortName">Rin[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Rin[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_proto_tb/cpu_proto/proc/Gout">
+      <obj_property name="ElementShortName">Gout</obj_property>
+      <obj_property name="ObjectShortName">Gout</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_proto_tb/cpu_proto/proc/DINout">
+      <obj_property name="ElementShortName">DINout</obj_property>
+      <obj_property name="ObjectShortName">DINout</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_proto_tb/cpu_proto/proc/Rout">
+      <obj_property name="ElementShortName">Rout[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Rout[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_proto_tb/cpu_proto/proc/I">
+      <obj_property name="ElementShortName">I[1:0]</obj_property>
+      <obj_property name="ObjectShortName">I[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_proto_tb/cpu_proto/proc/X">
+      <obj_property name="ElementShortName">X[3:0]</obj_property>
+      <obj_property name="ObjectShortName">X[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_proto_tb/cpu_proto/proc/Y">
+      <obj_property name="ElementShortName">Y[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Y[3:0]</obj_property>
+   </wvobject>
+</wave_config>

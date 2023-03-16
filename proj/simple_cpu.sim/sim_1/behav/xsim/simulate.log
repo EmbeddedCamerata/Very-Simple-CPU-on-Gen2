@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+$stop called at time : 1000030 ns : File "/home/kafcoppelia/WORK/PKU/School/Courses/FPGADesign/PROJECTS/SimpleCPU/test/debounce_tb.sv" Line 31
+$stop called at time : 1000030 ns : File "/home/kafcoppelia/WORK/PKU/School/Courses/FPGADesign/PROJECTS/SimpleCPU/test/debounce_tb.sv" Line 31

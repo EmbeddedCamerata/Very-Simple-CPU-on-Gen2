@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../rtl" --include "../../../../simple_cpu.gen/sources_1/ip/clk_wiz_0" \
+"../../../../../rtl/debounce.v" \
+
+sv xil_defaultlib  --include "../../../../../rtl" --include "../../../../simple_cpu.gen/sources_1/ip/clk_wiz_0" \
+"../../../../../../SimpleCPU/test/debounce_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

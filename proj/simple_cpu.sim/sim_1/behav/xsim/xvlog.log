@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kafcoppelia/WORK/PKU/School/Courses/FPGADesign/PROJECTS/SimpleCPU_on_Gen2/rtl/debounce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/kafcoppelia/WORK/PKU/School/Courses/FPGADesign/PROJECTS/SimpleCPU/test/debounce_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce_tb
